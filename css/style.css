@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    overflow-y: auto;
+}
+
+#header{
+    background-color: #f9cc3b;
+    border-top: 20px solid #f9cc3b;
+    height: 100px;
+    padding: 20px;
+    
+}
+
+#Logo{
+    height: 120px;   
+}
+
+#main-container{
+    border: 1px solid #f9cc3b;
+    height: calc(100vh - 162px);
+    
+}
+
+#main-left{
+    background-color: #f9cc3b;
+    border: 1px solid #f9cc3b;
+    width: 15%;
+    float: left;
+    height: 100%;
+    overflow-y: auto;
+}
+
+#main-center a:hover{
+    background-color: #4CAF50;
+}
+
+#main-center{
+    background-color: #f9cc3b;
+    border: 1px solid #f9cc3b;
+    width: 15%;
+    height: 100%; 
+    overflow-y: auto;
+    float: left;
+}
+
+#main-center div:nth-child(odd){
+    background-color: #ffc401;
+}
+
+#main-right{
+    border: 1px solid #f9cc3b;
+    width: calc(70% - 6px);
+    height: 100%; 
+    float: left;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.regionImages{
+    width: 160px;
+}
+
+#regionList{
+    list-style-type: none;
+    -webkit-padding-start: 0; 
+}
+
+.hero-image
+{
+    width: 250px;
+}
+.regioButton:hover{
+    background-color: #4CAF50;
+    color: white;
+}
